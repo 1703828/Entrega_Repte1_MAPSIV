@@ -1,0 +1,13 @@
+# Python 3.11. Versions amb què s'ha provat el repositori.
+# model.py només necessita torch, opencv-python i numpy (és el que s'executa a Codabench).
+torch==2.11.0
+torchvision
+opencv-python==4.11.0.86
+numpy==1.26.4
+pandas==2.0.3
+scikit-learn==1.7.2
+scikit-image==0.23.2
+imutils
+matplotlib
+# només per entrenar i exportar el YOLO-pose (detector/dl/train_pose.py, export_pose.py)
+ultralytics==8.4.175

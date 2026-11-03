@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+outputs/
+recognizer/cache/
+detector/dl/datasets/
+dades/uc3m

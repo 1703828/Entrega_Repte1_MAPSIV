@@ -1,0 +1,25 @@
+Partició 1_11 (seed 0); corpus sense les 20 fotos apartades
+split        test  train  validation
+stratum                             
+cv frontal      3     12           4
+cv lateral      7     36           7
+own frontal     5     16           2
+own lateral     2     13           3
+own_2          19     82          20
+
+split   test  train  validation
+subset                         
+cv        10     48          11
+own        7     29           5
+own_2     19     82          20
+
+uc3m per al train de detecció: 53 fotos (67 matrícules) de 954 candidates; el corpus de train en té 159
+
+Parelles més semblants entre splits diferents (dHash de 256 bits; < 40 seria sospitós):
+   79  im_028323ef9c01 (validation)  im_1ebbad248c90 (train)
+   81  im_33d38c975a5a (test)  im_fb60205d25d7 (train)
+   81  im_a08fa19be5ae (validation)  im_9414a1673f49 (train)
+   83  im_7aa435de2eef (test)  im_29ebfac71107 (train)
+   83  im_7aa435de2eef (test)  im_fada54d277b8 (train)
+
+Cap fuita entre splits.
